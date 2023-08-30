@@ -64,6 +64,13 @@ body {
     position: relative;
 }
 
+@media (max-width: 425px) {
+    .hero {
+        background: url('../images/june-fundo-mobile.jpg') center center no-repeat;
+        background-size: cover;
+    }
+}
+
 .hero:after {
     content: url('../images/seta_preta.png');
     position: absolute;
